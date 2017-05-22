@@ -29,7 +29,7 @@ spec:
       name: {{name}}
     spec:
       containers:
-      - image: {{images[name]}}
+      - image: {{images["Dockerfile"]}}
         imagePullPolicy: IfNotPresent
         name: {{name}}
         resources:
